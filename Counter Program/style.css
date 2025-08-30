@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #111;
+  font-family: Helvetica, sans-serif;
+}
+
+.counter-box {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  padding: 40px 60px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+#countlabel {
+  display: block;
+  text-align: center;
+  font-size: 10em;
+  font-family: Helvetica;
+  color: white;
+}
+
+#ButtonContainer {
+  text-align: center;
+}
+
+.Buttons {
+  padding: 10px 20px;
+  font-size: 1.5em;
+  color: white;
+  background-color: hsl(214, 100%, 74%);
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.25s;
+  margin: 5px;
+}
+
+.Buttons:hover {
+  background-color: hsl(214, 100%, 56%);
+}
